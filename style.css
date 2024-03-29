@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://img.freepik.com/free-photo/outer-space-background_53876-93124.jpg?w=1380&t=st=1711699699~exp=1711700299~hmac=7fa45219cdd2bb66c0e34c51f5e450cc3f7fef1ace9408cf83c710a1af59a2c3");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#container {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  transition: 0.2s ease-out;
+}
+
+#container img {
+  width: 100%;
+}
